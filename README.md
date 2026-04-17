@@ -20,6 +20,7 @@ This project implements a Snake Game using C++, aiming to develop fundamental pr
 | 5 | SV3 Resolves conflicts |
 | 6 | SV1 Review and Merges |
 | 7 | Final integration and testing |
+| 8 | Check collision with wall or itself → Game Over |
 
 ## Conclusion
 This project helps students understand the collaborative software development process, use Git/GitHub in practice, and apply C++ knowledge in a real implementation.
