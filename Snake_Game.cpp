@@ -55,6 +55,16 @@ public:
 
     }
 };
+void VeKhung()
+{
+    for (int i = MINX ; i<=MAXX ; i++)
+        for (int j = MINX ; j<=MAXY ; j++)
+            if ((i==MINX) || (i==MAXX) || (j==MINY) || (j==MAXY))
+            {
+                gotoxy(i,j);
+                printf("+");
+            }
+}
 
 int main()
 {
@@ -77,6 +87,7 @@ int main()
             if (t=='x') Huong = 1;
         }
         system("cls");
+        VeKhung();
         r.Ve(Qua);
         r.DiChuyen(Huong, Qua);
         Sleep(300);
